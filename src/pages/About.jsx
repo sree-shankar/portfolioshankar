@@ -64,7 +64,7 @@ const About = () => {
                   </ul>
                   <ul className='ul-font-about'>
                     <li className='li-font-about'>Contributor to open-source projects</li>
-                    <li className='li-font-about'>Enjoys hiking and Watching movies</li>
+                    <li className='li-font-about'>Traveling and Watching movies</li>
                   </ul>
                 </Stack>
               </Grid>
