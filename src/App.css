@@ -1,0 +1,280 @@
+
+/* Header */
+.Box-head-1 {
+  width: 34px;
+  height: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chip-header-1 {
+  height: 30px;
+}
+
+.chip-header-2 {
+  height: 25px;
+  width: 80px;
+}
+
+.chip-header-3 {
+  width: 120px;
+}
+
+/* footer */
+.footer-div {
+  margin-top: 50px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.box-footer-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.box-footer-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Home */
+
+.home-div-home{
+  padding-left: 21px;
+  padding-right: 21px;
+}
+
+.home-div-content {
+  padding-right: 130px;
+}
+
+.div-home-location {
+  margin-top: 40px;
+}
+
+.avatarcircle-img {
+  width: 400px;
+  height: 432px;
+  position: relative;
+  top: -20px
+}
+
+.wave-imageone {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  position: relative;
+  top: -5px;
+}
+
+/* About */
+
+.about-div-2 {
+  padding-left: 21px;
+  padding-right: 21px;
+}
+
+.usernewimage-about {
+  width: 440px;
+  height: 520px;
+}
+
+/* Experience */
+.li-experience {
+  margin-bottom: 5px;
+  font-family: "Poppins";
+  font-size: "0.898rem";
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.card-custom-1 {
+  background: #FFFFFF;
+  width: 77%;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.skill-icon {
+  width: 45px;
+  height: 50px;
+}
+.skill-icon-two {
+  width: 50px;
+  height: 50px;
+}
+.image-icon {
+  width: 220px;
+  height: 60px;
+}
+
+/* projects */
+.projects-div-2 {
+  padding-left: 21px;
+  padding-right: 21px;
+}
+
+.project-box-card {
+  background: #F3F4F6;
+  padding: 30px;
+}
+
+.project-box-card-2 {
+  padding: 30px;
+}
+
+.card-custom {
+  background: #FFFFFF;
+  width: 100%;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 10px;
+}
+
+.chip-header-4 {
+  background-color: #3178C6;
+}
+
+.skillimage-proj {
+  width: 500px;
+  height: 300px;
+}
+
+/* Drawer */
+.h3-menuvariant{
+  font-size: 20px !important;
+}
+
+.h4-menuvariant{
+  font-size: 15px !important;
+}
+
+.body1-menu-variant{
+  font-size: 12px !important;
+  position: relative !important;
+  top: 4px !important;
+}
+.Box-head-menu-1 {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-download-cv{
+  height: 26px;
+  background-color: #3178C6;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 10px;
+  position: relative !important;
+  top: 10px !important;
+}
+
+.custom-download-cv-web{
+  height: 26px;
+  width: 100px;
+  margin: 0 auto;
+  border-radius: 10px;
+  position: relative !important;
+}
+
+.custom-download-cv-web-2{
+  height: 26px;
+  width: 100px;
+  margin: 0 auto;
+  border-radius: 10px;
+  position: relative !important;
+  top: 20px;
+}
+
+.custom-download-cv-web-3{
+  height: 26px;
+  width: 70px;
+  margin: 0 auto;
+  border-radius: 10px;
+  position: relative !important;
+  top: 10px;
+}
+.custom-download-cv-web-4{
+  height: 26px;
+  width: 100px;
+  margin: 0 auto;
+  border-radius: 10px;
+  position: relative !important;
+  top: 30px;
+}
+
+.custom-download-cv-web-5{
+  height: 26px;
+  width: 70px;
+  margin: 0 auto;
+  border-radius: 10px;
+  position: relative !important;
+  top: 30px;
+}
+.custom-download-cv-web-5{
+  width: 50px;
+  border-radius: 10px;
+}
+.custom-download-cv-web-6{
+  height: 26px;
+  width: 110px;
+  margin: 0 auto;
+  border-radius: 10px;
+  position: relative !important;
+  
+}
+
+.style-pointer{
+  cursor: pointer;
+}
+
+.atagfooter{
+  text-decoration: none;
+  color: inherit;
+}
+
+/* animation */
+.marquee{
+  overflow: hidden;
+}
+.marquee-content{
+  display: flex;
+  animation: scrolling-reverse 15s linear infinite;
+  /* gap: 30px; */
+}
+.marquee-item {
+  flex: 0 0 10vw;
+  margin: 0 0.5vw;
+
+}
+.marquee-content:hover {
+  animation-play-state: paused;
+  }
+.marquee-item:hover {
+  animation-play-state: paused;
+  }
+  
+  @keyframes scrolling-reverse {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-90%); } 
+    }
+
+
+
+    
+    /* Animation */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
