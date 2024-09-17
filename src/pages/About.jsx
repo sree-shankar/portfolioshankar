@@ -25,7 +25,7 @@ const About = () => {
           </div>
           <Box mt={10}>
             <Grid container spacing={2}>
-              <Grid item xs={12} md={6} className='userimage-grid' data-aos="flip-left">
+              <Grid item xs={12} md={6} className='userimage-grid' data-aos="flip-down">
                 {
                   theme?.palette?.mode === "light" ?
                   <img src={usernewimage} alt='userimage' className='usernewimage-about' />

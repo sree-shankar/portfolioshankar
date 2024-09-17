@@ -30,7 +30,7 @@ const Home = () => {
           },
         }}>
 
-          <Grid item xs={12} md={9} pl={2} data-aos="fade-right">
+          <Grid item xs={12} md={9} pl={2} data-aos="flip-up">
               <Typography variant='h1'  className='h1-font-smallscreen' data-aos="zoom-in">Hi, I'm Sree Shankar
               <img src={handyhifi} alt='wave'  className='wave-imageone' />
               </Typography>
@@ -62,7 +62,7 @@ const Home = () => {
             </div>
 
           </Grid>
-          <Grid item xs={12} md={3} display={"flex"} justifyContent={{ xs: "center", md: "flex-end" }}  data-aos="fade-left">
+          <Grid item xs={12} md={3} display={"flex"} justifyContent={{ xs: "center", md: "flex-end" }}  data-aos="zoom-in-up">
               <img src={isMobile ? mobileavatar: avatarCircle} alt='avatarcircle' className='avatarcircle-img' /> 
           </Grid>
 

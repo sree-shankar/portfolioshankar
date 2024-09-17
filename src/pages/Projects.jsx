@@ -45,7 +45,7 @@ const Projects = () => {
                     </Typography>
                 </Box>
 
-                <Box mt={4} display={"flex"} justifyContent={"center"} data-aos="fade-right">
+                <Box mt={4} display={"flex"} justifyContent={"center"} data-aos="flip-right">
                     <div
                         className="card-custom"
                         style={{
@@ -206,7 +206,7 @@ const Projects = () => {
                         </Grid>
                     </div>
                 </Box>
-                <Box mt={3} display={"flex"} justifyContent={"center"} data-aos="fade-left">
+                <Box mt={3} display={"flex"} justifyContent={"center"} data-aos="flip-left">
                     <div
                         className="card-custom"
                         style={{
@@ -366,7 +366,7 @@ const Projects = () => {
                         </Grid>
                     </div>
                 </Box>
-                <Box mt={3} display={"flex"} justifyContent={"center"} data-aos="fade-right">
+                <Box mt={3} display={"flex"} justifyContent={"center"} data-aos="flip-right">
                     <div
                         className="card-custom"
                         style={{
