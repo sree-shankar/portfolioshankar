@@ -268,7 +268,7 @@
 
     
     /* Animation */
-.fade-in {
+/* .fade-in {
   opacity: 0;
   animation: fadeIn 2s forwards;
 }
@@ -277,4 +277,4 @@
   to {
     opacity: 1;
   }
-}
+} */

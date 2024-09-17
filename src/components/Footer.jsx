@@ -3,6 +3,8 @@ import React from 'react'
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import LocalPhoneOutlinedIcon from '@mui/icons-material/LocalPhoneOutlined';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+
 
 
 const Footer = () => {
@@ -49,6 +51,17 @@ const Footer = () => {
                         <ContentCopyIcon width={7} height={10} sx={{ color: theme?.palette?.mode === "dark" && "#FFFFFF" }} />
                     </Stack>
                 </Box>
+
+                <Box className="box-footer-2" mb={5}>
+                   <Stack direction="row" spacing={2} alignItems={"center"}>
+                      <LinkedInIcon width={7} height={10} sx={{ color: theme?.palette?.mode === "dark" && "#FFFFFF" }} />
+                       <a href="https://www.linkedin.com/in/contact-sreeshankar/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+                       <Typography variant="h2" className='h2-variant'>LinkedIn</Typography>
+                       </a>
+                       <ContentCopyIcon width={7} height={10} sx={{ color: theme?.palette?.mode === "dark" && "#FFFFFF" }} />
+
+                     </Stack>
+               </Box>
 
 
             </div>

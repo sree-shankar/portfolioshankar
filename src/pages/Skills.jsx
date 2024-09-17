@@ -1,9 +1,16 @@
 import { Box, Container, Stack, Typography, useTheme } from '@mui/material'
 import React from 'react'
 import { bootstrap, css, github, githublogo, html, js, mantine, mui, nextjs, react, reactquery, reduxtoolkit } from '../images/images'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import  { useEffect } from 'react'
 
 const Skills = () => {
   const theme = useTheme()
+    useEffect(() => {
+        AOS.init({ duration: 1200 });
+      }, []);
+  
   return (
     <div style={{ marginTop: "30px", marginBottom: "15px" }}>
       <Container maxWidth="lg" >
@@ -18,7 +25,7 @@ const Skills = () => {
             </Typography>
           </Box>
 
-          <Box mt={5} className="marquee">
+          <Box mt={5} className="marquee" data-aos="flip-down">
             <Stack direction={"row"} gap={{ xs: 4, sm: 8 }} useFlexGap sx={{ flexWrap: 'wrap' }} justifyContent={"center"}>
               <Box className="marquee-content">
               <Box textAlign={"center"} className="marquee-item">

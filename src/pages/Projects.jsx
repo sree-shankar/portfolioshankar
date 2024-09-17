@@ -10,11 +10,17 @@ import {
 import React from "react";
 import { gown, hub, school } from "../images/images";
 import { LaunchOutlined } from "@mui/icons-material";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import  { useEffect } from 'react'
 
 const Projects = () => {
     const theme = useTheme();
+    useEffect(() => {
+        AOS.init({ duration: 1200 });
+      }, []);
     return (
-        <Container maxWidth="lg"className="fade-in">
+        <Container maxWidth="lg" className="">
             <div className="projects-div-2">
                 <div
                     className="custom-download-cv-web-5"
@@ -39,7 +45,7 @@ const Projects = () => {
                     </Typography>
                 </Box>
 
-                <Box mt={4} display={"flex"} justifyContent={"center"}>
+                <Box mt={4} display={"flex"} justifyContent={"center"} data-aos="fade-right">
                     <div
                         className="card-custom"
                         style={{
@@ -70,7 +76,7 @@ const Projects = () => {
                             </Grid>
 
                             <Grid item xs={12} md={6}>
-                                <Box className="project-box-card-2">
+                                <Box className="project-box-card-2" >
                                     <Typography
                                         variant="h2"
                                         className="h2-variant"
@@ -200,7 +206,7 @@ const Projects = () => {
                         </Grid>
                     </div>
                 </Box>
-                <Box mt={3} display={"flex"} justifyContent={"center"}>
+                <Box mt={3} display={"flex"} justifyContent={"center"} data-aos="fade-left">
                     <div
                         className="card-custom"
                         style={{
@@ -360,7 +366,7 @@ const Projects = () => {
                         </Grid>
                     </div>
                 </Box>
-                <Box mt={3} display={"flex"} justifyContent={"center"}>
+                <Box mt={3} display={"flex"} justifyContent={"center"} data-aos="fade-right">
                     <div
                         className="card-custom"
                         style={{

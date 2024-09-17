@@ -1,14 +1,20 @@
 import { Typography, Container, Box, Grid, Stack, useTheme } from '@mui/material'
 import React from 'react'
 import { pic, usernewimage } from '../images/images'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import  { useEffect } from 'react'
 
 
 const About = () => {
   const theme = useTheme()
+  useEffect(() => {
+    AOS.init({ duration: 1200 });
+  }, []);
 
   return (
 
-    <div style={{ backgroundColor: theme?.palette?.mode === "light" ? "#F9FAFB" : "#111827" }} className="fade-in">
+    <div style={{ backgroundColor: theme?.palette?.mode === "light" ? "#F9FAFB" : "#111827" }} className="">
 
       <Container maxWidth="lg" >
 
@@ -19,7 +25,7 @@ const About = () => {
           </div>
           <Box mt={10}>
             <Grid container spacing={2}>
-              <Grid item xs={12} md={6} className='userimage-grid'>
+              <Grid item xs={12} md={6} className='userimage-grid' data-aos="flip-left">
                 {
                   theme?.palette?.mode === "light" ?
                   <img src={usernewimage} alt='userimage' className='usernewimage-about' />
@@ -27,7 +33,7 @@ const About = () => {
                 }  
               </Grid>
 
-              <Grid item xs={12} md={6} >
+              <Grid item xs={12} md={6} data-aos="flip-up">
                 <Typography variant='h5' className='h5-variant'>Curious about me? Here you have it:</Typography>
                 <Typography variant='body1' className='body1-variant' mt={2}>
                   I specialize in creating user-friendly interfaces and have a strong foundation in JavaScript, HTML,

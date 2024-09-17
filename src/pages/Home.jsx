@@ -3,12 +3,22 @@ import React from 'react'
 import { avatarCircle, handyhifi, mobileavatar, online } from '../images/images'
 import FmdGoodOutlinedIcon from '@mui/icons-material/FmdGoodOutlined';
 import { Toolbarstyle } from '../theme/helpertheme';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import  { useEffect } from 'react';
+
+
 
 const Home = () => {
+
   const theme = useTheme()
   const isMobile = useMediaQuery('(max-width:599px)');
+
+  useEffect(() => {
+    AOS.init({ duration: 1200 });
+  }, []);
   return (
-    <Box component={"main"} className="fade-in">
+    <Box component={"main"} className="">
       <Toolbarstyle />
     <Container maxWidth="lg" sx={{marginTop: {xs: 8 ,sm: 6 , md:10}, marginBottom: {xs: 1 ,sm: 2 , md:1}} } >
       <div className='home-div-home' >
@@ -20,8 +30,8 @@ const Home = () => {
           },
         }}>
 
-          <Grid item xs={12} md={9} pl={2}>
-              <Typography variant='h1'  className='h1-font-smallscreen'>Hi, I'm Sree Shankar
+          <Grid item xs={12} md={9} pl={2} data-aos="fade-right">
+              <Typography variant='h1'  className='h1-font-smallscreen' data-aos="zoom-in">Hi, I'm Sree Shankar
               <img src={handyhifi} alt='wave'  className='wave-imageone' />
               </Typography>
 
@@ -52,7 +62,7 @@ const Home = () => {
             </div>
 
           </Grid>
-          <Grid item xs={12} md={3} display={"flex"} justifyContent={{ xs: "center", md: "flex-end" }} >
+          <Grid item xs={12} md={3} display={"flex"} justifyContent={{ xs: "center", md: "flex-end" }}  data-aos="fade-left">
               <img src={isMobile ? mobileavatar: avatarCircle} alt='avatarcircle' className='avatarcircle-img' /> 
           </Grid>
 

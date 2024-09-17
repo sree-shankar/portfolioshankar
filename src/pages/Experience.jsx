@@ -2,13 +2,19 @@ import { Box, Container, Grid, Stack, Typography, useTheme } from '@mui/material
 import React from 'react'
 import { PaperStyle } from '../theme/helpertheme'
 import {capecom, darklogocape, darkmlogo, msquared } from '../images/images'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import  { useEffect } from 'react'
 
 
 
 const Experience = () => {
     const theme = useTheme()
+    useEffect(() => {
+        AOS.init({ duration: 1200 });
+      }, []);
     return (
-        <div style={{ backgroundColor: theme?.palette?.mode === "light" ? "#F9FAFB" : "#111827" }} className="fade-in">
+        <div style={{ backgroundColor: theme?.palette?.mode === "light" ? "#F9FAFB" : "#111827" }} className="" >
             <Container maxWidth="lg" >
                 <div className='custom-download-cv-web-4' style={{ backgroundColor: "#3178C6" }}>
                     <Typography variant='body1' className='body1-menu-variant' textAlign={"center"} color={"#FFFFFF"}>Experience</Typography>
@@ -19,7 +25,7 @@ const Experience = () => {
                         Here is a quick summary of my most recent experiences:
                     </Typography>
                 </Box>
-                <Box mt={5} display={"flex"} justifyContent={"center"} >
+                <Box mt={5} display={"flex"} justifyContent={"center"} data-aos="zoom-in">
                     <PaperStyle elevation={3} >
                         <Grid container spacing={{ xs: 1, md: 2 }}>
                             <Grid item xs={12} md={4} sx={{display: "flex", alignItems: "center"}}>
