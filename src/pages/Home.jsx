@@ -6,8 +6,6 @@ import { Toolbarstyle } from '../theme/helpertheme';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import  { useEffect } from 'react';
-
-
 import styled, { keyframes } from 'styled-components';
 
 const Containere = styled.div`
