@@ -38,8 +38,8 @@ const InnerImage = styled.img`
   transform: translate(-50%, -50%);
   overflow: hidden;
   border-radius: 10px;
-  width: 200px;
-  height: 200px;
+  width: 220px;
+  height: 250px;
 `;
 
 const rotateAnimation = keyframes`
