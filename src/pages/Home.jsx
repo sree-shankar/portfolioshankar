@@ -15,7 +15,14 @@ const Containere = styled.div`
   /* overflow: hidden; */
   /* background-color: black; */
   --circleDiameter: 300px;
-  --planets: calc(var(--circleDiameter) / 5);
+  --planets: calc(var(--circleDiameter) / 6);
+  @media (max-width: 768px) {
+    overflow: hidden; /* Apply overflow hidden on mobile view */
+    --circleDiameter: 280px;
+    --planets: calc(var(--circleDiameter) / 8);
+    height: 40vh;
+    width: 100%;
+  }
 `;
 
 const HeroCircle = styled.div`
