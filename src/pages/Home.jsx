@@ -135,7 +135,7 @@ const Home = () => {
             <div className='home-div-content'>
               <Box>
                 <Typography variant='h6' mt={2} textAlign={{ xs: "flex-start", md: "unset" }} pl={0.5}>
-                I'm a Front-End Developer with 3 years of experience specializing in React.js. I focus on creating exceptional
+                I'm a Front-End Developer with 3+ years of experience specializing in React.js. I focus on creating exceptional
                  digital experiences that are fast, accessible, visually appealing, and responsive. 
                 Despite being relatively new to the field, my passion for web development drives me 
                 to continuously learn and take on new challenges.

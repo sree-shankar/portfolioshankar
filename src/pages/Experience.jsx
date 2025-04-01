@@ -41,7 +41,7 @@ const Experience = () => {
                             <Grid item xs={12} md={8}>
                                 <Stack direction={{ xs: "column-reverse", md: "row" }} gap={{ md: 10, lg: 15 }}>
                                     <Typography variant='h2' className="h2-variant" mt={{ xs: 1, md: "unset" }} ml={{ xs: 0, md: 2 }}>Frontend Developer Reactjs</Typography>
-                                    <Typography variant="h6" className="h6-variant" mt={{ xs: 1, md: "unset" }} ml={{ xs: 0, md: "unset" }}>Sept 2021 - present</Typography>
+                                    <Typography variant="h6" className="h6-variant" mt={{ xs: 1, md: "unset" }} ml={{ xs: 0, md: "unset" }}>Sept 2021 - March 2025</Typography>
                                 </Stack>
 
                                 <Box paddingRight={{ md: 16, lg: 20 }}>
