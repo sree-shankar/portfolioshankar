@@ -82,7 +82,7 @@ export const Header = () => {
             </Stack>
 
             <div className='custom-download-cv'>
-              <a href="/SreeShankarResume3years.pdf" download className='atagfooter'>
+              <a href="/Sreeshankarfrontendreactjs.pdf" download className='atagfooter'>
                 <Typography variant='body1' className='body1-menu-variant' textAlign={"center"} color={"#FFFFFF"}>Download CV</Typography>
                 </a>
             </div>
@@ -132,7 +132,7 @@ export const Header = () => {
                                     
                                     <MaterialUISwitch onClick={toggleTheme}/>
                                     <div className='custom-download-cv-web' style={{ backgroundColor: theme?.palette?.mode === "light" ? "#3178C6" : "#FFFFFF" }}>
-                                    <a href="/SreeShankarResume3years.pdf" download className='atagfooter'>
+                                    <a href="/Sreeshankarfrontendreactjs.pdf" download className='atagfooter'>
                                         <Typography variant='body1' className='body1-menu-variant' textAlign={"center"} color={theme?.palette?.mode === "light" ? "#FFFFFF" : "#000000"}>DownloadCV</Typography>
                                         </a>
                                     </div>

@@ -4,7 +4,9 @@ import handyhifi from "../assest/handhyfi.png"
 import online from "../assest/online.png"
 import navicon from "../assest/Icon.png"
 // import usernewimage from "../assest/imagenewcol.png" 
-import usernewimage from "../assest/shankar_profile.jpg" 
+// import usernewimage from "../assest/shankar_profile.jpg" 
+import usernewimage from "../assest/shankar_photoshot.jpeg" 
+
 import html from "../assest/html.webp"
 import css from "../assest/css-3.webp"
 import bootstrap from "../assest/bootstrap.webp"
@@ -27,12 +29,14 @@ import mobileavatar from "../assest/shankar_s.png"
 // import mobileavatar from "../assest/vijintk.png"
 // import capecom from "../assest/logo_black.png"
 import capecom from "../assest/Techversant_logo.png"
-import msquared from "../assest/m2logo-1.png"
-import darkmlogo from "../assest/mlogo.png"
+// import msquared from "../assest/m2logo-1.png"
+// import darkmlogo from "../assest/mlogo.png"
 // import darklogocape from "../assest/logowhite.png"
 import darklogocape from "../assest/Techversant_logo.png"
 // import pic from "../assest/pic.png"
-import pic from "../assest/shankar_profile.jpg"
+// import pic from "../assest/shankar_profile.jpg"
+import pic from "../assest/shankar_photoshot.jpeg"
+
 
 
 export {
@@ -57,9 +61,9 @@ export {
         school,
         mobileavatar,
         capecom,
-        msquared,
+        // msquared,
         githublogo,
         darklogocape,
-        darkmlogo,
+        // darkmlogo,
         pic
 }
