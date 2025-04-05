@@ -60,6 +60,16 @@
   position: relative;
   top: -20px
 }
+@keyframes waveAnimation {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(14deg); }
+  20% { transform: rotate(-8deg); }
+  30% { transform: rotate(14deg); }
+  40% { transform: rotate(-4deg); }
+  50% { transform: rotate(10deg); }
+  60% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
 
 .wave-imageone {
   width: 40px;
@@ -67,6 +77,9 @@
   margin-left: 10px;
   position: relative;
   top: -5px;
+  display: inline-block;
+  transform-origin: bottom center;
+  animation: waveAnimation 4s ease-in-out infinite;
 }
 
 /* About */
